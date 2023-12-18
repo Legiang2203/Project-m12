@@ -32,7 +32,7 @@ document.querySelector('.Vaotrangchu').addEventListener('click', function(){
 
             if(adminUser){
                 localStorage.setItem('Taikhoandangtruycap', JSON.stringify(nguoi));
-                window.location.href = "Trang_chu.html";
+                window.location.href = "html/Trang_chu.html";
                
                 signup();
             }else{
